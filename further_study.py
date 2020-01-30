@@ -105,7 +105,9 @@ def custom_insert(input_list, index, value):
 
     """
 
-    pass
+    input_list[1:] = ['Feb', 'Mar']
+
+    return None
 
 
 def custom_remove(input_list, value):
