@@ -190,14 +190,14 @@ def custom_count(input_list, value):
         2
 
     """
+    x = 0
 
-    #for i in input_list:
-     #   x = 0
+    for i in input_list:
 
-      #  if i == 'Do'
-       #     x = 
+        if i == 'Do':
+            x = x + 1
 
-    return 0
+    return x
 
 
 def custom_reverse(input_list):
