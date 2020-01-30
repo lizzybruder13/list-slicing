@@ -164,8 +164,18 @@ def custom_index(input_list, value):
         1
 
     """
+    x = 0
 
-    return 0
+    for i in input_list:
+        
+
+        if i == 'Re':
+
+            return x
+
+        x = x + 1
+
+    return 
 
 
 def custom_count(input_list, value):
@@ -180,6 +190,12 @@ def custom_count(input_list, value):
         2
 
     """
+
+    #for i in input_list:
+     #   x = 0
+
+      #  if i == 'Do'
+       #     x = 
 
     return 0
 
