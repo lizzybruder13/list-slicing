@@ -126,7 +126,9 @@ def custom_remove(input_list, value):
 
     """
 
-    pass
+    input_list[:1] = []
+
+    return None
 
 
 def custom_pop(input_list):
