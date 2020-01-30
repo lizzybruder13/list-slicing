@@ -190,7 +190,9 @@ def replace_middle(input_list):
 
     """
 
-    pass
+    input_list[2:-2] = [42,37]
+
+    return None
 
 
 def delete_third_and_seventh(input_list):
